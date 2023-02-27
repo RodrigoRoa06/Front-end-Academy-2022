@@ -1,0 +1,55 @@
+#banner{ 
+    background-size: cover;
+    position: relative;
+    width:min-content;
+    height: 500px;
+    font-size: 450%;
+}
+.hola{
+    text-align: center;
+    font-size: 100px;
+}
+.typed{
+    position: absolute;
+    z-index: 10;
+}
+#banner p{
+    color: var(--color-fuente-1);
+}
+.miscompetencias img{
+    height: 120px;
+    width: 220px;
+}
+.contenedorb{
+    background-image: url(Sources/llleaves.svg);
+    position: relative;
+    background-size: cover;
+    padding: 0%;
+    width: 1100px;
+}
+#boton{
+        background: none;
+        font-family: Georgia;
+        color: var(--color-fuente-1);
+        font-size: 70%;
+        padding: 10px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        border: solid var(--color-2) 5px;
+}
+#boton a{
+    color:var(--color-fuente-1);
+    text-decoration: none;
+}
+#boton:hover {
+    background: var(--color-3);
+    border: 4px var(--color-3);
+  }
+#boton a:hover {
+    color: var(--color-oscuro-2);
+
+}
+.contenedorb{
+    padding: 25% 0 25% 0;
+}

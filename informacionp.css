@@ -1,0 +1,62 @@
+.sobre_mi{
+    margin: auto;
+    top: 400px;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+.sobre_mi p:nth-of-type(1){
+    width: 80%;
+    padding: 2% 0 5% 0;
+
+}
+#img_leila{
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    top: 100px;
+    left: 45%;
+    width: 140px;
+    height: 140px;
+}
+#sm{
+    top:4ch;
+    left:10%;
+    position: absolute;
+    font-size: 300%;
+}
+#desc{
+    position: absolute;
+    left: 10%;
+    top: 18ch;
+    font-size: 190%;
+}
+
+
+#mc{
+    top: 120px;
+    font-size: 180%;
+    position: absolute;
+    left: 10%;
+    margin-top:28ch;
+}
+.miscompetencias{
+    top: 40ch;
+    width: 35%;
+    position: absolute;
+    font-size:180%;
+    text-align: justify;
+}
+.miscompetencias img{
+    background:none;
+    filter: invert(1);
+
+}
+.miscompetencias:nth-of-type(1){
+    position: absolute;
+    left: 10%;
+}
+.miscompetencias:nth-of-type(2){
+    position: absolute;
+    left: 55%;
+}

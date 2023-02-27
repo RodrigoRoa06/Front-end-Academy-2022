@@ -1,0 +1,60 @@
+@import url(banner.css);
+@import url(menu.css);
+@import url(informacionp.css);
+@import url(conocimientos_tecnicos.css);
+@import url(portafolio.css);
+@import url(contacto.css);
+
+:root{
+  --color-1:#3a003a;
+  --color-2:#FF97FF;
+  --color-3:#AF00FF;
+  --color-fuente-1:#bb4fe9;
+  --color-fuente-2:#AB34FF;
+  --color-oscuro1:#6700FF;
+  --color-oscuro2:#7400FF;
+}
+* {
+  margin:auto;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'indie flower', cursive;
+  display: block;
+  position: relative;
+  color: var(--color-fuente-1);
+}
+body{
+  background:  var(--color-1);
+  margin: 0;
+  padding: 0;
+}
+title{
+  display: none;
+}
+footer{
+position: relative;
+top: 3300px;
+}
+footer button{
+  background: none;
+  font-family: Georgia;
+  color: var(--color-fuente-1);
+  font-size: 70%;
+  padding: 10px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: solid var(--color-2) 5px;
+}
+footer button a{
+color:var(--color-fuente-1);
+text-decoration: none;
+}
+footer button:hover {
+background: var(--color-3);
+border: 4px var(--color-3);
+}
+footer button a:hover {
+color: var(--color-oscuro-2);
+
+}
